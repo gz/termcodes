@@ -1,0 +1,7 @@
+[package]
+name = "termstyle"
+version = "0.0.1"
+authors = ["Gerd Zellweger <mail@gerdzellweger.com>", "ticki <Ticki@users.noreply.github.com>", "gycos <alexandre.bury@gmail.com>", "IGI-111 <igi-111@protonmail.com>"]
+description = "A library for styled output in ANSI terminals."
+license = "MIT"
+keywords = ["no_std", "tty", "color", "style"]
