@@ -3,7 +3,7 @@
 //! # Example
 //!
 //! ```rust
-//! use termstyle::color;
+//! use termcodes::color;
 //!
 //! fn main() {
 //!     println!("{}Red", color::Fg(color::Red));

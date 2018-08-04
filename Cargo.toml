@@ -1,5 +1,5 @@
 [package]
-name = "termstyle"
+name = "termcodes"
 version = "0.0.1"
 authors = ["Gerd Zellweger <mail@gerdzellweger.com>", "ticki <Ticki@users.noreply.github.com>", "gycos <alexandre.bury@gmail.com>", "IGI-111 <igi-111@protonmail.com>"]
 description = "A library for styled output in ANSI terminals."
