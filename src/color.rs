@@ -59,7 +59,7 @@ derive_color!("High-intensity light magenta.", LightMagenta, "13");
 derive_color!("High-intensity light cyan.", LightCyan, "14");
 derive_color!("High-intensity light white.", LightWhite, "15");
 
-impl<'a> Color for &'a Color {
+impl<'a> Color for &'a dyn Color {
     #[inline]
     fn write_fg(&self, f: &mut fmt::Formatter) -> fmt::Result {
         (*self).write_fg(f)
